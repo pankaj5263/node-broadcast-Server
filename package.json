@@ -1,0 +1,17 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "broadcast-server": "node server.js",
+    "broadcast-client": "node client.js"
+  },
+  "author": "pankaj sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
